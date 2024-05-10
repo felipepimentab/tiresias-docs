@@ -63,6 +63,14 @@ export default defineConfig({
           { text: 'Tecnologias utilizadas', link: '/guia/tecnologias' },
         ]
       },
+      {
+        text: 'Recursos',
+        items: [
+          { text: 'Índice', link: '/recursos/indice' },
+          { text: 'nRF5340 Audio', link: '/recursos/nrf5340' },
+          { text: 'ADAU 1797', link: '/recursos/adau1797' },
+        ]
+      },
       { text: 'Sobre', link: 'sobre.md' }
     ],
 

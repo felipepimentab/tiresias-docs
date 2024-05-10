@@ -14,8 +14,8 @@ hero:
       text: Sobre
       link: /sobre
     - theme: alt
-      text: Sobre
-      link: /sobre
+      text: Recursos
+      link: /recursos/indice
 
 features:
   - title: Nordic
@@ -31,4 +31,3 @@ features:
   - title: Open MHA
     details: Lorem ipsum dolor sit amet
 ---
-
