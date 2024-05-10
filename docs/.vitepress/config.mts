@@ -69,5 +69,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/felipepimentab/tiresias-docs' }
     ]
-  }
+  },
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/svg+xml",
+        href: "/aasi.png",
+      },
+    ]
+  ],
 })
