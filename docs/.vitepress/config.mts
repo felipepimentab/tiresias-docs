@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Tiresias",
-  description: "Tiresias Documentation",
+  description: "Tecnologia aberta para aparelhos auditivos",
   lang: "pt-BR",
   lastUpdated: true,
   locales: {
@@ -101,6 +101,41 @@ export default defineConfig({
         type: "image/svg+xml",
         href: "/aasi.png",
       },
-    ]
+    ],
+    [
+      "meta",
+      {
+        property: "og:title",
+        content: "Tiresias"
+      }
+    ],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content: "Tecnologia aberta para aparelhos auditivos"
+      }
+    ],
+    [
+      "meta",
+      {
+        property: "og:image",
+        content: "https://eesc.usp.br/calouros/wp-content/uploads/2025/01/Imagem-do-WhatsApp-de-2025-01-16-as-16.09.55_13b718f9-e1737055076500.jpg"
+      }
+    ],
+    [
+      "meta",
+      {
+        property: "og:url",
+        content: "https://tiresias-docs.vercel.app"
+      }
+    ],
+    [
+      "meta",
+      {
+        property: "og:type",
+        content: "website"
+      }
+    ],
   ],
 })
