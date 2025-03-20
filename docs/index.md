@@ -3,31 +3,40 @@
 layout: home
 
 hero:
-  name: "Tiresias Docs"
-  text: "Tiresias Documentation"
-  tagline: Tecnologia open-source para Aparelhos de Amplificação Sonora Individual (AASI)
+  name: "Tiresias"
+  text: Tecnologia aberta para aparelhos auditivos
+  tagline: Uma iniciativa conjunta da Escola de Engenharia de São Carlos (EESC-USP) e da Faculdade de Odontologia de Bauru (FOB-USP), dedicada a transformar a acessibilidade auditiva no Brasil.
+  image:
+    src: https://eesc.usp.br/imgs/institucional/identidade_visual/identidade_visual_novo_logo.png
+    alt: Tiresias
   actions:
     - theme: brand
-      text: Guia
-      link: /guia/tecnologias
+      text: Sobre o projeto
+      link: /sobre/introducao
     - theme: alt
-      text: Sobre
-      link: /sobre
+      text: Documentação técnica
+      link: /documentacao/geral
     - theme: alt
-      text: Recursos
-      link: /recursos/indice
+      text: Outros recursos
+      link: /recursos/guia
 
 features:
-  - title: Nordic
-    details: Nordic nRF5340 audio DK
-  - title: Zephyr
-    details: Zephyr RTOS
-  - title: Open MHA
-    details: Lorem ipsum dolor sit amet
-  - title: Nordic
-    details: Nordic nRF5340 audio DK
-  - title: Zephyr
-    details: Zephyr RTOS
-  - title: Open MHA
-    details: Lorem ipsum dolor sit amet
+  - icon: 🌐
+    title: Tecnologia Aberta
+    details: Utilizamos plataformas abertas que permitem personalização e evolução contínua.
+  - icon: 🧩
+    title: Componentes Comerciais
+    details: Adoção de peças facilmente encontradas no mercado, reduzindo custos e facilitando a manutenção.
+  - icon: 🏫
+    title: Colaboração Acadêmica
+    details: Desenvolvimento baseado em pesquisas de ponta realizadas por estudantes e professores da USP.
+  - icon: 🛜
+    title: Nordic nRF5340
+    details: Soc
+  - icon: 🎧
+    title: Analog Devices ADAU1787
+    details: Codec de áudio
+  - icon: ⚡️
+    title: Zephyr RTOS
+    details: Sistema operacional
 ---

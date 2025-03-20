@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Tiresias Docs",
+  title: "Tiresias",
   description: "Tiresias Documentation",
   lang: "pt-BR",
   lastUpdated: true,
@@ -41,7 +41,7 @@ export default defineConfig({
         },
       },
     },
-    siteTitle: "Tiresias Docs",
+    siteTitle: "Tiresias",
     logo: "/aasi.png",
     editLink: {
       pattern: "https://github.com/felipepimentab/tiresias-docs/blob/main/docs/:path",
@@ -53,25 +53,40 @@ export default defineConfig({
     },
     nav: [
       { text: 'Início', link: '/' },
-      { text: 'Guia', link: '/guia/tecnologias' }
+      { text: 'Sobre', link: '/sobre/introducao' },
+      { text: 'Documentação', link: '/documentacao/geral' },
+      { text: 'Guia', link: '/recursos/guia' },
     ],
 
     sidebar: [
       {
-        text: 'Guia',
+        text: 'Sobre',
         items: [
-          { text: 'Tecnologias utilizadas', link: '/guia/tecnologias' },
+          { text: 'Introdução', link: '/sobre/introducao' },
+          { text: 'Objetivos', link: '/sobre/objetivos' },
+          { text: 'Parcerias Institucionais', link: '/sobre/parcerias' },
+          { text: 'Equipe', link: '/sobre/equipe' },
+          { text: 'Metodologia', link: '/sobre/metodologia' },
+          { text: 'Resultados Esperados', link: '/sobre/resultados' },
+          { text: 'Cronograma', link: '/sobre/cronograma' },
+          { text: 'Orçamento e Financiamento', link: '/sobre/financiamento' },
+          { text: 'Planos Futuros', link: '/sobre/planos' },
+        ]
+      },
+      {
+        text: 'Documentação técnica',
+        items: [
+          { text: 'Visão geral', link: '/documentacao/geral' },
+          { text: 'Hardware', link: '/documentacao/hardware' },
+          { text: 'Software', link: '/documentacao/software' },
         ]
       },
       {
         text: 'Recursos',
         items: [
-          { text: 'Índice', link: '/recursos/indice' },
-          { text: 'nRF5340 Audio', link: '/recursos/nrf5340' },
-          { text: 'ADAU 1797', link: '/recursos/adau1797' },
+          { text: 'Guia', link: '/recursos/guia' },
         ]
       },
-      { text: 'Sobre', link: 'sobre.md' }
     ],
 
     socialLinks: [
