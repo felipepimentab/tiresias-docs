@@ -125,7 +125,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://tiresias-docs.vercel.app/logo.png"
+        content: "https://tiresias-docs.vercel.app/logo.jpg"
       }
     ],
     [
