@@ -7,7 +7,7 @@ hero:
   text: Tecnologia aberta para aparelhos auditivos
   tagline: Uma iniciativa conjunta da Escola de Engenharia de São Carlos (EESC-USP) e da Faculdade de Odontologia de Bauru (FOB-USP), dedicada a transformar a acessibilidade auditiva no Brasil.
   image:
-    src: https://eesc.usp.br/imgs/institucional/identidade_visual/identidade_visual_novo_logo.png
+    src: /logo.png
     alt: Logo do projeto Tiresias
   actions:
     - theme: brand

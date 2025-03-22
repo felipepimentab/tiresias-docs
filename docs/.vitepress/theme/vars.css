@@ -1,0 +1,6 @@
+:root {
+  /* Primary color (brand) */
+  --vp-c-brand-3: #265191;  /* Main primary color */
+  --vp-c-brand-2: #223a6d;  /* Darker variant for active states, etc. */
+  --vp-c-brand-1: #3f64ae;  /* Lighter variant for hover states, buttons, etc. */
+}

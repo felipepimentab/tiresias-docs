@@ -15,7 +15,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outline: {
-      label: "Nessa página",
+      label: "Nesta página",
     },
     lastUpdated: {
       text: "Última atualização",
@@ -91,7 +91,12 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/felipepimentab/tiresias-docs' }
-    ]
+    ],
+
+    footer: {
+      message: 'Tecnologia aberta para aparelhos auditivos',
+      copyright: 'Copyright © 2024-present'
+    }
   },
   head: [
     [
@@ -120,7 +125,7 @@ export default defineConfig({
       "meta",
       {
         property: "og:image",
-        content: "https://eesc.usp.br/calouros/wp-content/uploads/2025/01/Imagem-do-WhatsApp-de-2025-01-16-as-16.09.55_13b718f9-e1737055076500.jpg"
+        content: "https://tiresias-docs.vercel.app/logo.png"
       }
     ],
     [
